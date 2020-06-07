@@ -12,9 +12,9 @@ print(ext_gcd(12,3))
 def mod_inverse(a,m):
     '''returns a number x such that ax is congruent to 1 mod(m)'''
     x,y = ext_gcd(a,m)
-    g = a*x+b*y
+    g = a*x+m*y
     if g!=1:
-        returns 'No Solution'
+        return 'No Solution'
     else:
         x = (x%m+m)%m
-        returns x
+        return x
