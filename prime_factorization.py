@@ -26,4 +26,4 @@ def prime_factor(n):
         else:
             i+=1
     return prime_dict
-print(prime_factor(24))
+

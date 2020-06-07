@@ -11,4 +11,4 @@ def phi(n):
     if n>1:
         result = result - result/n
     return result
-print(phi(49))
+print(phi(12))
