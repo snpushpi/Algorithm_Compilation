@@ -33,7 +33,7 @@ def discrete_fourier_transform(a_list):
         result_list[i+int(exp2/2)]=half_n_unity_root_odd_val[i]-cmath.exp(i*root)*half_n_unity_root_even_val[i]
     return result_list
 
-print(discrete_fourier_transform([1,3,5]))
+
     
 
 
