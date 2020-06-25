@@ -8,7 +8,6 @@ def ext_gcd(a,b):
     x = y1
     y = x1- y1*int(a/b)
     return x,y
-print(ext_gcd(12,3))
 def mod_inverse(a,m):
     '''returns a number x such that ax is congruent to 1 mod(m)'''
     x,y = ext_gcd(a,m)
